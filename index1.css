@@ -1,0 +1,69 @@
+h2{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+body{
+    background-color: hotpink;
+}
+.container{
+    position:absolute;
+    left: 633px;
+}
+.box{
+    background-color: skyblue;
+    width: 100px;
+    height: 100px;  
+    transition-duration: 3s;
+
+}
+.box1:hover{
+    width: 300px;
+}
+.box2:hover{
+    width: 300px;
+    height: 300px;
+}  
+.box3:hover{
+    transition-timing-function: linear;
+    width: 500px;
+    height: 100px; 
+}
+.box4:hover{
+    transition-timing-function: ease;
+    width: 500px;
+    height: 100px; 
+}
+.box5:hover{
+    transition-timing-function: ease-in;
+    width: 500px;
+    height: 100px; 
+}
+.box6:hover{
+    transition-timing-function: ease-out;
+    width: 500px;
+    height: 100px; 
+}
+.box7:hover{
+    transition-timing-function: ease-in-out;
+    width: 400px;
+    height: 100px; 
+  
+}
+.back1{
+    color: blueviolet;
+    font-size: xx-large;
+    position: absolute;
+    top: 953px;
+    left: 682px;
+    
+}
+.next1{
+    color: brown;
+    font-size: larger;
+    font-size: xx-large;
+    position: absolute;
+    top: 997px;
+    left: 682px;
+
+}

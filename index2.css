@@ -1,0 +1,128 @@
+body{
+    border-left: 4px solid blueviolet;
+    border-right: 4px solid brown;
+    background-image: url(./sky.jpg);
+    margin: 0px;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+.one{
+    background-color: orange;
+    word-spacing: -4px;
+    right: 14px;
+    position: relative;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.two{
+    background-color: white;
+    position: relative;
+    right: 0px;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.three{
+    background-color: green;
+    position: relative;
+    left: 23px;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.city{
+    right: 183px;
+    top: 104px;
+    position:relative;
+    width: 200%;
+    height: 350px;
+    animation: city 2s linear infinite;
+
+}
+@keyframes city {
+    /* 0%{
+        transform:translateX(0px)
+    } */
+    100%{
+        transform:translateX(-1000px)
+    }
+}   
+.road{
+    position: relative;
+    padding-top: 150px;
+    height: 350px;
+    right: 210px;
+    width: 200%;
+    bottom: 54px;
+    animation: path 2s linear infinite;
+
+}
+@keyframes path {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-500px);
+        
+    }
+} 
+.sun{
+    width: 157px;
+    position: relative;
+    bottom: 900px;
+    left: 1300px;
+    animation: sun 30s linear infinite;
+}
+@keyframes sun {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-200px);
+    }
+}
+.car{
+    position: relative;
+    left: 447px;
+    width: 403px;
+    height: 150px;
+    bottom: 549px;
+}
+.wheel{
+    width: 79px;
+    height: 78px;
+    position: relative;
+    left: 479px;
+    bottom: 625px;
+    animation: weel 1s linear infinite;
+    
+}
+@keyframes weel {
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+.wheel2{
+    width: 81px;
+    height: 79px;
+    position: relative;
+    left: 728px;
+    bottom: 711px;
+    animation: weel1 1s linear infinite;
+}
+@keyframes weel1 {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.flag{
+    position: relative;
+    width: 158px;
+    height: 82px;
+    left: 715px;
+    bottom: 879px;x;
+}

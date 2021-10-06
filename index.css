@@ -1,0 +1,113 @@
+body{
+    background-color: yellow;  
+}
+h1{
+    color: black;
+    text-align: center;
+}
+.container{
+    position: absolute;
+    left: 450px;
+    margin-top: 40px;
+}
+.skew{
+    height: 100px;
+    margin-left: 50px;
+    width: 100px;
+    background-color: pink;
+    display: inline-block;
+    animation-name: skewx;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate; 
+    
+}
+@keyframes skewx {
+    0%{
+        transform: skewX(45deg);
+    }  
+    100%{
+        transform: skewX(-45deg);
+    }
+}
+
+.stone{
+    height: 100px;
+    margin-left: 50px;
+    width: 100px;
+    background-color:gray;
+    display: inline-block;
+    animation: band 2s linear infinite;
+    animation-direction: alternate;
+  
+}
+@keyframes band {
+    0%{
+        transform: skewY(45deg);
+    } 
+    100%{
+        transform: skewY(-45deg);
+    } 
+}
+.rotate{
+    height: 100px;
+    margin-left: 50px;
+    width: 100px;
+    background-color:green;
+    display: inline-block;
+    animation: rock 2s linear infinite;
+}
+@keyframes rock {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.pen{
+    height: 100px;
+    margin-left: 50px;
+    width: 100px;
+    background-color:blue;
+    display: inline-block;
+    animation: pooja 5s linear infinite;
+}
+@keyframes pooja {
+    100%{
+       transform:scaleY(2);
+    }
+    
+}
+.pencil{
+    height: 100px;
+    margin-left: 50px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    animation: john 2s linear infinite;
+}
+@keyframes john {
+    100%{
+        transform: scaleX(1.5);
+    }   
+}
+.eraser{
+    height: 100px;
+    margin-left: 50px;
+    width: 100px;
+    background-color:springgreen;
+    display: inline-block;
+    animation: jack 2s linear infinite alternate;
+}
+@keyframes jack {
+    
+    100%{
+        transform: rotateZ(90deg);
+    }
+    
+}
+h3{
+    font-size: xx-large;
+    font-weight: bolder;
+    position: relative;
+    top: 579px;
+    text-align: center;
+}
